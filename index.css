@@ -1,488 +1,496 @@
 @charset "UTF-8";
+html {
+  visibility: hidden;
+}
+html.wf-active {
+  visibility: visible;
+}
 body {
-    font-family: source-han-sans-japanese, "Shin Go Medium", 'Noto Sans JP'sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin: 0;
+  font-family: source-han-sans-japanese, "Shin Go Medium",
+    "Noto Sans JP" sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0
-    }
-    100% {
-        opacity: 1
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0
-    }
-    100% {
-        opacity: 1
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #loader-bg {
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: #fff;
-    z-index: 1;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  z-index: 1;
 }
 
 #loader {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 200px;
-    height: 200px;
-    margin-top: -100px;
-    margin-left: -100px;
-    text-align: center;
-    color: #fff;
-    z-index: 2;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
 }
 
 .senden {
-    width: 98%;
-    height: 600px;
+  width: 98%;
+  height: 600px;
 }
 
 .about {
-    max-width: 1300px;
-    width: 100%;
-    margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
 }
 
 .works {
-    max-width: 1300px;
-    width: 100%;
-    clear: left;
-    margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  clear: left;
+  margin: auto;
 }
 
 .contact {
-    max-width: 1300px;
-    width: 100%;
-    margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
 }
 
 .top {
-    width: 100%;
+  width: 100%;
 }
 
 .rogo {
-    width: 300px;
-    margin: 50px;
+  width: 300px;
+  margin: 50px;
 }
 
 .moji {
-    width: 300px;
-    margin: 20px;
+  width: 300px;
+  margin: 20px;
 }
 
 .minirogo {
-    width: 25%;
-    float: left;
+  width: 25%;
+  float: left;
 }
 
 .kakorogo {
-    margin-left: 10px;
-    width: 95%;
-    height: auto;
-    border: 5px solid #dcdcdc;
-    border-radius: 30px;
+  margin-left: 10px;
+  width: 95%;
+  height: auto;
+  border: 5px solid #dcdcdc;
+  border-radius: 30px;
 }
 
 table {
-    margin: 2% 1% 1% 5%;
-    font-weight: 700;
+  margin: 2% 1% 1% 5%;
+  font-weight: 700;
 }
 
 .abouttext {
-    float: right;
+  float: right;
 }
 
 .twitter {
-    color: #1da1f2;
-    text-decoration: none;
+  color: #1da1f2;
+  text-decoration: none;
 }
 
 .youtube {
-    color: #FF0000;
-    text-decoration: none;
+  color: #ff0000;
+  text-decoration: none;
 }
-.otice{
-    font-weight: bold;
-    color: #6091d3;
-    background: #cde4ff;
-    border: solid 3px #6091d3;
-    border-radius: 10px;
-    padding: 2%;
+.otice {
+  font-weight: bold;
+  color: #6091d3;
+  background: #cde4ff;
+  border: solid 3px #6091d3;
+  border-radius: 10px;
+  padding: 2%;
 }
-.otice h1{
-    font-family: source-han-sans-japanese, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin: 0;
-    font-size: 1.2rem;
-    padding-bottom: 1rem;
-    border-bottom: none;
+.otice h1 {
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: none;
 }
 .otice p {
-    font-family: source-han-sans-japanese, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin: 0;
-    font-size: 1rem;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .items {
-    margin: 4%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  margin: 4%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .items .item {
-    width: 19%;
-    margin: 2px;
+  width: 19%;
+  margin: 2px;
 }
 
 .item-img {
-    padding: 0;
+  padding: 0;
 }
 
 .item-body {
-    padding: 0;
+  padding: 0;
 }
 
 .item-title {
-    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin: 15px 0px 5px 0px;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #000000;
+  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 15px 0px 5px 0px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
 }
 
 .item-title2 {
-    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin: 15px 0px 5px 0px;
-    font-size: 1.5rem;
-    color: #000000;
+  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 15px 0px 5px 0px;
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .item-title3 {
-    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin: 15px 0px 5px 0px;
-    font-size: 1.3rem;
-    color: #000000;
+  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 15px 0px 5px 0px;
+  font-size: 1.3rem;
+  color: #000000;
 }
 
 .item-body p {
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0px 0px 30px;
-    font-size: 0.8rem;
-    color: #000000;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 0px 30px;
+  font-size: 0.8rem;
+  color: #000000;
 }
 
 .im {
-    width: 98%;
-    border-radius: 50%;
-    box-shadow: 0.2em 0.1em 0.1em gray;
+  width: 98%;
+  border-radius: 50%;
+  box-shadow: 0.2em 0.1em 0.1em gray;
 }
 
 h1 {
-    font-size: 2rem;
-    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #000000;
-    margin: 100px 0px 20px 0px;
-    border-bottom: solid;
-    border-color: #ffff66;
-    border-width: 5px;
+  font-size: 2rem;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+  margin: 100px 0px 20px 0px;
+  border-bottom: solid;
+  border-color: #ffff66;
+  border-width: 5px;
 }
 
 h2 {
-    font-size: 1.7rem;
-    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin: 50px 0px 20px 2%;
-    color: #000000;
+  font-size: 1.7rem;
+  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 50px 0px 20px 2%;
+  color: #000000;
 }
 
 p {
-    font-size: 1rem;
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 4%;
-    margin-right: 4%;
-    color: #000000;
+  font-size: 1rem;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 4%;
+  margin-right: 4%;
+  color: #000000;
 }
 
 .p1 {
-    font-size: 1rem;
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: auto;
-    color: #000000;
+  font-size: 1rem;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+  color: #000000;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 4%;
-    margin-top: 2%;
-    color: #000000;
+  font-size: 1.5rem;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 4%;
+  margin-top: 2%;
+  color: #000000;
 }
 
 red {
-    color: red;
+  color: red;
 }
 
 .entry {
-    padding: 0.5em 1em;
-    margin: 30;
-    font-weight: bold;
-    color: #000000;
-    /*文字色*/
-    background: #f5f5f5;
-    border: solid 3px #000;
-    /*線*/
-    border-radius: 10px;
-    /*角の丸み*/
-    font-size: 1.7rem;
-    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-    font-weight: 600;
-    font-style: normal;
+  padding: 0.5em 1em;
+  margin: 30;
+  font-weight: bold;
+  color: #000000;
+  /*文字色*/
+  background: #f5f5f5;
+  border: solid 3px #000;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
+  font-size: 1.7rem;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .disco {
-    padding: 0.5em 1em;
-    margin: 30;
-    font-weight: bold;
-    color: #000000;
-    /*文字色*/
-    background: #e0ffff;
-    border: solid 3px #4169e1;
-    /*線*/
-    border-radius: 10px;
-    /*角の丸み*/
-    font-size: 1.7rem;
-    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-    font-weight: 600;
-    font-style: normal;
+  padding: 0.5em 1em;
+  margin: 30;
+  font-weight: bold;
+  color: #000000;
+  /*文字色*/
+  background: #e0ffff;
+  border: solid 3px #4169e1;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
+  font-size: 1.7rem;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 td {
-    font-family: source-han-sans-japanese, "Shin Go Medium", 'Noto Sans JP'sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1rem;
+  font-family: source-han-sans-japanese, "Shin Go Medium",
+    "Noto Sans JP" sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 url {
-    color: #4169e1;
+  color: #4169e1;
 }
 
 .kakorogo {
-    margin-left: 10px;
-    margin: auto;
-    width: 577px;
-    border: 9px solid #c0c0c0;
-    border-radius: 30px;
+  margin-left: 10px;
+  margin: auto;
+  width: 577px;
+  border: 9px solid #c0c0c0;
+  border-radius: 30px;
 }
 
 .you {
-    margin: auto;
-    padding-left: 10px;
-    width: 512px;
-    height: 288px;
+  margin: auto;
+  padding-left: 10px;
+  width: 512px;
+  height: 288px;
 }
 
 .box11 {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    color: #5d627b;
-    background: white;
-    border-top: solid 5px #5d627b;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 
 .tube {
-    width: 100%;
-    height: 600px;
+  width: 100%;
+  height: 600px;
 }
 
 @media screen and (max-width: 1400px) {
-    .about,
-    .works,
-    .contact {
-        max-width: 900px;
-        margin: auto;
-    }
-    .kakorogo {
-        margin-left: 10px;
-        height: auto;
-        width: 373px;
-        border: 9px solid #c0c0c0;
-        border-radius: 30px;
-        margin: 10px;
-    }
-    .you {
-        padding-left: 10px;
-        height: auto;
-        width: 500px;
-        margin: 10px;
-    }
-    .items .item {
-        width: 24%;
-    }
-    .im {
-        width: 97%;
-    }
-    .tube {
-        width: 100%;
-        height: 400px;
-    }
-    .senden {
-        height: 500px;
-    }
+  .about,
+  .works,
+  .contact {
+    max-width: 900px;
+    margin: auto;
+  }
+  .kakorogo {
+    margin-left: 10px;
+    height: auto;
+    width: 373px;
+    border: 9px solid #c0c0c0;
+    border-radius: 30px;
+    margin: 10px;
+  }
+  .you {
+    padding-left: 10px;
+    height: auto;
+    width: 500px;
+    margin: 10px;
+  }
+  .items .item {
+    width: 24%;
+  }
+  .im {
+    width: 97%;
+  }
+  .tube {
+    width: 100%;
+    height: 400px;
+  }
+  .senden {
+    height: 500px;
+  }
 }
 
 @media screen and (max-width: 980px) {
-    .about,
-    .works,
-    .contact {
-        width: 98%;
-        margin: 2%;
-    }
-    .items .item {
-        width: 31%;
-    }
-    .im {
-        width: 98%;
-    }
-    .minirogo {
-        width: 100%;
-        float: left;
-    }
-    .tube {
-        width: 100%;
-        height: 300px;
-    }
-    .senden {
-        height: 450px;
-    }
+  .about,
+  .works,
+  .contact {
+    width: 98%;
+    margin: 2%;
+  }
+  .items .item {
+    width: 31%;
+  }
+  .im {
+    width: 98%;
+  }
+  .minirogo {
+    width: 100%;
+    float: left;
+  }
+  .tube {
+    width: 100%;
+    height: 300px;
+  }
+  .senden {
+    height: 450px;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .kakorogo {
-        margin-left: 10px;
-        width: 87%;
-        border: 9px solid #c0c0c0;
-        border-radius: 30px;
-        margin: 10px;
-    }
-    .you {
-        padding-left: 10px;
-        width: 87%;
-        margin: 10px;
-    }
-    .items .item {
-        width: 48%;
-    }
-    .moji {
-        width: 50%;
-    }
-    .rogo {
-        width: 50%;
-    }
-    .senden {
-        height: 400px;
-    }
+  .kakorogo {
+    margin-left: 10px;
+    width: 87%;
+    border: 9px solid #c0c0c0;
+    border-radius: 30px;
+    margin: 10px;
+  }
+  .you {
+    padding-left: 10px;
+    width: 87%;
+    margin: 10px;
+  }
+  .items .item {
+    width: 48%;
+  }
+  .moji {
+    width: 50%;
+  }
+  .rogo {
+    width: 50%;
+  }
+  .senden {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .senden {
-        height: 300px;
-    }
+  .senden {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    h1 {
-        margin: 40px 0 20px 0;
-        font-size: 1.6rem;
-    }
-    h2 {
-        margin: 30px 1% 10px 1%;
-        font-size: 1.4rem;
-    }
-    h3 {
-        margin: 0% 1% 0% 1%;
-        font-size: 1.2rem;
-    }
-    p {
-        margin: 0% 2% 0% 2%;
-        font-size: 1rem;
-    }
-    .entry {
-        font-size: 1.3rem;
-    }
-    .disco {
-        font-size: 1.3rem;
-    }
-    .item-title {
-        font-size: 1.2rem;
-    }
-    .item-title2 {
-        font-size: 0.9rem;
-    }
-    .item-title3 {
-        font-size: 0.7rem;
-    }
-    .moji {
-        width: 75%;
-        margin: 0px 10% 20px 10%;
-    }
-    .rogo {
-        width: 75%;
-        margin: 0px 10% 0px 10%;
-    }
-    iframe {
-        height: 100;
-    }
-    .senden {
-        height: 250px;
-    }
+  h1 {
+    margin: 40px 0 20px 0;
+    font-size: 1.6rem;
+  }
+  h2 {
+    margin: 30px 1% 10px 1%;
+    font-size: 1.4rem;
+  }
+  h3 {
+    margin: 0% 1% 0% 1%;
+    font-size: 1.2rem;
+  }
+  p {
+    margin: 0% 2% 0% 2%;
+    font-size: 1rem;
+  }
+  .entry {
+    font-size: 1.3rem;
+  }
+  .disco {
+    font-size: 1.3rem;
+  }
+  .item-title {
+    font-size: 1.2rem;
+  }
+  .item-title2 {
+    font-size: 0.9rem;
+  }
+  .item-title3 {
+    font-size: 0.7rem;
+  }
+  .moji {
+    width: 75%;
+    margin: 0px 10% 20px 10%;
+  }
+  .rogo {
+    width: 75%;
+    margin: 0px 10% 0px 10%;
+  }
+  iframe {
+    height: 100;
+  }
+  .senden {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 350px) {
-    iframe {
-        height: 100;
-    }
+  iframe {
+    height: 100;
+  }
 }
